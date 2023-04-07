@@ -57,16 +57,16 @@
                                 </header>
 								<header>
 									<span class="date"></span>
-									<h2>Data Processing, Cleaning, and Manipulation in MS SQL</h2>
-									<p>In this dashboard, choose a language and compare its lexical similarity to first official languages around the world. 
+									<h2>Web Scraping, Machine Learning, and Web-App in Python</h2>
+									<p>Pitchers are clustered based on over 50 pitch metrics. Hitter's statistics are compared vs each cluster of pitchers. Bayesian data analysis
+										provides insights for how better or worse a player is vs each cluster.
 									</p>
 								</header>
-								<a class="image fit"><img src="images/catalan_lex_sim.jpg" alt="" /></a>
+								<a class="image fit"><img src="images/main_cluster.jpg" alt="" /></a>
 								<ul class="actions special">
 								</ul>
 								<ul class="actions special">
-									<li><a href="https://public.tableau.com/app/profile/alec.james/viz/WorldLanguageSimilarity/Dashboard1" class="button small">Tableau Dashboard</a></li>
-									<li><a href="https://github.com/ajm-data/Country_lexical_similarity" class="button small">View GitHub Repository</a></li>
+									<li><a href="https://github.com/ajm-data/hitter-cluster-matchup" class="button small">View GitHub Repository</a></li>
 								</ul>
 								<h3>What is Lexical Similarity?</h3>
 								<p>
@@ -79,19 +79,19 @@
 								<article>
 									<header>
 										<span class="date"></span>
-										<h2><a href="https://github.com/ajm-data/Country_lexical_similarity/blob/main/read_lexical_similarity_tsv.py">Extract and Transform data </a></h2>
-										<p>Python: convert lexical_similarity.tsv into excel workbook</p>
+										<h2><a href="https://github.com/ajm-data/hitter-cluster-matchup/blob/main/extract/get_roto_matchup_data.py"> Extract </a></h2>
+										<p>Scrape RotoWire for each hitter vs pitcher matchup statistics</p>
 									</header>
-									<a href="https://public.tableau.com/app/profile/alec.james/viz/WorldLanguageSimilarity/Sheet1" class="image fit"><img src="images/read_tsv.jpg" alt="" /></a>
+									<a href="https://github.com/ajm-data/hitter-cluster-matchup/blob/main/extract/get_roto_matchup_data.py" class="image fit"><img src="images/cluster_fetch_data.jpg" alt="" /></a>
 								</article>
 								<article>
 									<header>
 										<span class="date"></span>
-										<h2><a href="">Manipulate data for easier Tableau readability</a></h2>
-										<p>Append language 2 on language 1 so lexical_similarity comparison exists for every language pair in each column</p>
+										<h2><a href="">Extract</a></h2>
+										<p>Loop through entire team, write '.getresponse()' to json files</p>
 										<p>	</p>
 									</header>
-									<a href="https://public.tableau.com/app/profile/alec.james/viz/UkrainianRefugeeCrisis/Dashboard2" class="image fit"><img src="images/mssql_lex.jpg" alt="" /></a>
+									<a href="https://github.com/ajm-data/hitter-cluster-matchup/blob/main/extract/get_roto_matchup_data.py" class="image small"><img src="images/cluster_json_raw.jpg" alt="" /></a>
 								</article>
 								<article>
 									<header>
